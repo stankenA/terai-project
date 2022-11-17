@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Actay';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./actay.ttf) format("ttf"),
+    url(./actay.woff) format("woff"),
+    url(./actay.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: 'Actay';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(./actay-wide.ttf) format("ttf"),
+    url(./actay-wide.woff) format("woff"),
+    url(./Inter-Medium.woff2) format("woff2");
+}
+
+
+@font-face {
+  font-family: 'Druk Wide';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(./Druk\ Wide\ Bold.ttf) format("ttf"),
+    url(./Druk\ Wide\ Bold.woff) format("woff"),
+    url(./Druk\ Wide\ Bold.woff2) format("woff2");
+}
