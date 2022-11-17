@@ -1,1 +1,1 @@
-# terai-project
+# TERAI project
