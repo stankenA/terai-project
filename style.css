@@ -84,6 +84,7 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 100%;
+  margin: 51px 0 0;
 }
 
 .header__button {
@@ -97,6 +98,7 @@
   padding: 0;
   border-radius: 45px;
   color: #FFF;
+  background-color: #FFF;
   border: none;
   cursor: pointer;
   height: 86px;
@@ -114,7 +116,154 @@
 
 .header__picture {
   position: absolute;
-  top: 60px;
-  right: 34px;
+  top: 61px;
+  right: 17px;
   z-index: 0;
+}
+
+.header__dots {
+  position: absolute;
+  bottom: -75px;
+  left: -32px;
+}
+
+.about {
+  max-width: 1057px;
+  margin: 20px auto 165px;
+  position: relative;
+}
+
+.about__title {
+  max-width: 566px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 135.19%;
+  margin: 0 0 56px;
+}
+
+.about__description {
+  margin: 0;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 117.5%;
+  max-width: 592px;
+}
+
+.about__server-pic {
+  position: absolute;
+  top: -79px;
+  right: -147px;
+}
+
+.about__comp-pic {
+  position: absolute;
+  bottom: -110px;
+  right: -84px;
+}
+
+.offer {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.offer__title {
+  background-color: #FFF;
+  border-radius: 90px;
+  padding: 46px 24px 37px 82px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 135.19%;
+  width: 982px;
+  text-align: start;
+  margin: 0;
+}
+
+.offer__list {
+  max-width: 861px;
+  padding: 37px 22px 27px 64px;
+  margin: 0;
+  list-style: none;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: -11px 23px 42px 20px rgba(0, 0, 0, 0.05);
+  border-bottom-left-radius: 45px;
+  border-bottom-right-radius: 45px;
+  position: relative;
+}
+
+.offer__list::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  backdrop-filter: blur(7.5px);
+  border-bottom-left-radius: 90px;
+  border-bottom-right-radius: 90px;
+  z-index: -1;
+}
+
+.offer__list-item {
+  display: flex;
+  align-items: center;
+  min-height: 51px;
+  margin-bottom: 17px;
+}
+
+.offer__icon {
+  margin-right: 55px;
+}
+
+.offer__text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+}
+
+.offer__contact {
+  margin-top: 37px;
+  width: 946px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.offer__questions {
+  margin: 0;
+  color: #4D5164;
+  width: 512px;
+  text-align: center;
+  background-color: #FFF;
+  padding: 29px 69px 29px 67px;
+  border-radius: 90px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 135.19%;
+  color: #000000;
+}
+
+.offer__button {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 135.19%;
+  margin: 0;
+  padding: 29px 63px;
+}
+
+.offer__dots-1 {
+  position: absolute;
+  right: -105px;
+  bottom: 235px;
+  z-index: -2;
+}
+
+.offer__dots-2 {
+  position: absolute;
+  top: 99px;
+  left: -169px;
+  z-index: -2;
 }
