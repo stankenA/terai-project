@@ -127,6 +127,11 @@
   left: -32px;
 }
 
+.content {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 .about {
   max-width: 1057px;
   margin: 20px auto 165px;
