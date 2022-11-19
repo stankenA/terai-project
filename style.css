@@ -88,6 +88,7 @@
 }
 
 .header__button {
+  margin-top: 64px;
   font-weight: 700;
   font-size: 32px;
   line-height: 135.19%;
@@ -102,7 +103,6 @@
   border: none;
   cursor: pointer;
   height: 86px;
-  margin-top: 64px;
   transition: background-color .5s ease;
 }
 
@@ -163,7 +163,7 @@
 
 .offer {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 auto 110px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -250,7 +250,6 @@
   font-weight: 700;
   font-size: 24px;
   line-height: 135.19%;
-  margin: 0;
   padding: 29px 63px;
 }
 
@@ -266,4 +265,125 @@
   top: 99px;
   left: -169px;
   z-index: -2;
+}
+
+.features {
+  display: flex;
+  position: relative;
+  min-height: 1501px;
+  background: url(./images/feature__background.svg) no-repeat top 57% right 50%,
+    url(./images/dots.svg) no-repeat top 117px left 59px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 108px;
+  max-width: 1440px;
+}
+
+.features__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 135.19%;
+  text-align: center;
+  max-width: 514px;
+  margin: 0;
+  position: relative;
+  right: -156px;
+}
+
+.features__picture {
+  position: absolute;
+  top: 0;
+  left: 237px;
+}
+
+.features__cloud-1 {
+  position: absolute;
+  top: -31%;
+  left: -56%;
+  z-index: -1;
+}
+
+.features__cloud-2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.features__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.features__list-item {
+  position: absolute;
+  width: 333px;
+  height: 333px;
+  background-color: #FFF;
+  border-radius: 45px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.features__number {
+  position: absolute;
+  font-weight: 700;
+  font-size: 101px;
+  line-height: 135.19%;
+  top: -56px;
+  right: 55px;
+}
+
+.features__number_fifth {
+  right: 218px;
+}
+
+.features__list-item_first {
+  top: 172px;
+  right: 239px;
+}
+
+.features__list-item_second {
+  top: 547px;
+  right: 123px;
+}
+
+.features__list-item_third {
+  top: 646px;
+  right: 498px;
+}
+
+.features__list-item_fourth {
+  top: 736px;
+  left: 118px;
+}
+
+.features__list-item_fifth {
+  top: 1022px;
+  left: 474px;
+}
+
+
+.features__text {
+  max-width: 270px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.features__text-bold {
+  font-weight: 700;
+}
+
+.features__button {
+  padding-left: 82px;
+  padding-right: 82px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 135.19%;
+  text-align: center;
 }
