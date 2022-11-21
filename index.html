@@ -259,7 +259,7 @@
             <fieldset class="calculate__form-fieldset">
               <div class="calculate__form-container">
                 <label for="ram" class="calculate__form-label">ОПЕРАТИВНАЯ ПАМЯТЬ, ГБ</label>
-                <input type="range" class="calculate__slider" min="0" max="256" step="1" id="ram" name="RAM">
+                <input type="range" class="calculate__slider" min="0" max="256" step="1" id="ram" name="RAM" value="0">
                 <div class="calculate__form-values">
                   <span class="calculate__form-value">0</span>
                   <span class="calculate__form-value">64</span>
@@ -268,7 +268,7 @@
                   <span class="calculate__form-value calculate__form-value_5">256</span>
                 </div>
               </div>
-              <input type="number" id="ram-result" class="calculate__list-result" min="0" max="256">
+              <input type="number" id="ram-result" class="calculate__list-result" min="0" max="256" value="0">
             </fieldset>
           </form>
         </li>
@@ -287,7 +287,7 @@
                   <span class="calculate__form-value">64</span>
                 </div>
               </div>
-              <input type="number" id="cores-result" class="calculate__list-result">
+              <input type="number" id="cores-result" class="calculate__list-result" value="1" min="1" max="64">
             </fieldset>
           </form>
         </li>
@@ -295,8 +295,8 @@
           <form class="calculate__form">
             <fieldset class="calculate__form-fieldset">
               <div class="calculate__form-container">
-                <label for="hdd-sdd" class="calculate__form-label">HDD + SSD CACHE, ГБ</label>
-                <input type="range" class="calculate__slider" min="0" max="10240" step="1" id="hdd-sdd" name="hdd_sdd"
+                <label for="hdd-ssd" class="calculate__form-label">HDD + SSD CACHE, ГБ</label>
+                <input type="range" class="calculate__slider" min="0" max="10240" step="1" id="hdd-ssd" name="hdd_sdd"
                   value="0">
                 <div class="calculate__form-values">
                   <span class="calculate__form-value">0</span>
@@ -306,7 +306,7 @@
                   <span class="calculate__form-value">10240</span>
                 </div>
               </div>
-              <input type="number" id="hdd-sdd-result" class="calculate__list-result">
+              <input type="number" id="hdd-ssd-result" class="calculate__list-result" value="0" min="0" max="10240">
             </fieldset>
           </form>
         </li>
@@ -325,7 +325,7 @@
                   <span class="calculate__form-value">2048</span>
                 </div>
               </div>
-              <input type="number" id="nvme-result" class="calculate__list-result">
+              <input type="number" id="nvme-result" class="calculate__list-result" value="0" min="0" max="2048">
             </fieldset>
           </form>
         </li>
@@ -389,7 +389,7 @@
     </div>
     <img src="./images/man_footer.png" alt="Человек с кофе и планшетом" class="footer__picture">
   </footer>
-  <script src="./scripts/index.js" defer></script>
+  <script src="./scripts/index.js"></script>
 </body>
 
 </html>
