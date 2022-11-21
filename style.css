@@ -927,11 +927,12 @@ input[type=range]::-ms-track {
   background-color: #FFF;
   border-radius: 20px;
   transition: all .5s ease;
+  cursor: pointer;
 }
 
-/* .calculate__checkbox:hover .calculate__checkmark {
-  background-color: rgb(255, 255, 255);
-} */
+.calculate__checkmark:hover {
+  box-shadow: -11px 23px 42px 20px rgba(0, 0, 0, 0.05);
+}
 
 .calculate__checkmark::after {
   content: "";
