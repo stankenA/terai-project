@@ -944,6 +944,7 @@ input[type=range]::-ms-track {
   border-radius: 20px;
   transition: all .5s ease;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent
 }
 
 .calculate__checkmark:hover {
