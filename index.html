@@ -91,7 +91,7 @@
       <img src="./images/cloud.png" alt="Облако" class="features__cloud-1">
       <img src="./images/cloud.png" alt="Облако" class="features__cloud-2">
       <img src="./images/dots.svg" alt="Декоративные точки" class="features__dots">
-      <ul class="features__list features__list_mobile">
+      <ul class="features__list features__list_mobile-hidden">
         <li class="features__list-item features__list-item_first">
           <img src="./images/features__icon_1.svg" alt="Иконка" class="features__list-item-icon">
           <span class="features__number">1</span>
@@ -172,27 +172,27 @@
               <p class="prices__card-txt">Кол-во сотрудников</p>
               <p class="prices__card-value">5-10</p>
             </li>
-            <span class="prices__card-line"></span>
+
             <li class="prices__card-list-item">
               <p class="prices__card-txt">Кол-во ядер процессора</p>
               <p class="prices__card-value">2</p>
             </li>
-            <span class="prices__card-line"></span>
+
             <li class="prices__card-list-item">
               <p class="prices__card-txt">Оперативная память</p>
               <p class="prices__card-value">8</p>
             </li>
-            <span class="prices__card-line"></span>
+
             <li class="prices__card-list-item">
               <p class="prices__card-txt">Дисковое пространство</p>
               <p class="prices__card-value">50<span class="prices__card-value-gb">гб</span></p>
             </li>
-            <span class="prices__card-line"></span>
+
             <li class="prices__card-list-item">
               <p class="prices__card-txt">Наличие SQL</p>
               <p class="prices__card-value">-</p>
             </li>
-            <span class="prices__card-line"></span>
+
             <li class="prices__card-list-item">
               <p class="prices__card-txt">Ежедневное резервное копирование</p>
               <p class="prices__card-value">+</p>
@@ -212,27 +212,27 @@
               <p class="prices__card-txt">Кол-во сотрудников</p>
               <p class="prices__card-value">20-50</p>
             </li>
-            <span class="prices__card-line"></span>
+
             <li class="prices__card-list-item">
               <p class="prices__card-txt">Кол-во ядер процессора</p>
               <p class="prices__card-value">8</p>
             </li>
-            <span class="prices__card-line"></span>
+
             <li class="prices__card-list-item">
               <p class="prices__card-txt">Оперативная память</p>
               <p class="prices__card-value">32</p>
             </li>
-            <span class="prices__card-line"></span>
+
             <li class="prices__card-list-item">
               <p class="prices__card-txt">Дисковое пространство</p>
               <p class="prices__card-value">200<span class="prices__card-value-gb">гб</span></p>
             </li>
-            <span class="prices__card-line"></span>
+
             <li class="prices__card-list-item">
               <p class="prices__card-txt">Наличие SQL</p>
               <p class="prices__card-value">+</p>
             </li>
-            <span class="prices__card-line"></span>
+
             <li class="prices__card-list-item">
               <p class="prices__card-txt">Ежедневное резервное копирование</p>
               <p class="prices__card-value">+</p>
@@ -252,27 +252,27 @@
               <p class="prices__card-txt">Кол-во сотрудников</p>
               <p class="prices__card-value">100+</p>
             </li>
-            <span class="prices__card-line"></span>
+
             <li class="prices__card-list-item">
               <p class="prices__card-txt">Кол-во ядер процессора</p>
               <p class="prices__card-value">16</p>
             </li>
-            <span class="prices__card-line"></span>
+
             <li class="prices__card-list-item">
               <p class="prices__card-txt">Оперативная память</p>
               <p class="prices__card-value">128</p>
             </li>
-            <span class="prices__card-line"></span>
+
             <li class="prices__card-list-item">
               <p class="prices__card-txt">Дисковое пространство</p>
               <p class="prices__card-value">500<span class="prices__card-value-gb">гб</span></p>
             </li>
-            <span class="prices__card-line"></span>
+
             <li class="prices__card-list-item">
               <p class="prices__card-txt">Наличие SQL</p>
               <p class="prices__card-value">+</p>
             </li>
-            <span class="prices__card-line"></span>
+
             <li class="prices__card-list-item">
               <p class="prices__card-txt">Ежедневное резервное копирование</p>
               <p class="prices__card-value">+</p>
@@ -394,9 +394,11 @@
           </form>
         </li>
         <li class="calculate__list-item calculate__list-item_large">
-          <div class="calculate__list-item-content calculate__list-item-content_column">
+          <div class=" calculate__list-item-result-content  calculate__list-item-result-content_column">
             <p class="calculate__list-item-title-bold">ВАША СТОИМОСТЬ</p>
             <p class="calculate__list-item-price">0</p>
+            <p class="calculate__users">Количество пользователей: <input type="number" class="calculate__users-result"
+                id="users-result" value="0" min="0" max="80"></p>
           </div>
         </li>
       </ul>

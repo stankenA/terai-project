@@ -34,6 +34,65 @@ function calcPrice() {
   calcResult.textContent = result;
 }
 
+//Функция расчёт количества пользователей
+
+const usersResult = document.querySelector('.calculate__users-result');
+
+function calcUsers() {
+
+  let result = 0;
+  if (parseInt(sliderRam.value, 10) === 256 && parseInt(sliderCores.value, 10) === 64 && parseInt(sliderHddSsd.value, 10) === 10240 && parseInt(sliderNvme.value, 10) === 2048) {
+    result = 80;
+  } else if (parseInt(sliderRam.value, 10) > 192 && parseInt(sliderCores.value, 10) > 48 && parseInt(sliderHddSsd.value, 10) > 7680 && parseInt(sliderNvme.value, 10) > 1536) {
+    result = 60;
+  } else if (parseInt(sliderRam.value, 10) > 128 && parseInt(sliderCores.value, 10) > 33 && parseInt(sliderHddSsd.value, 10) > 5120 && parseInt(sliderNvme.value, 10) > 1024) {
+    result = 40;
+  } else if (parseInt(sliderRam.value, 10) > 64 && parseInt(sliderCores.value, 10) > 17 && parseInt(sliderHddSsd.value, 10) > 2560 && parseInt(sliderNvme.value, 10) > 512) {
+    result = 20;
+  } else if (parseInt(sliderRam.value, 10) > 1 && parseInt(sliderCores.value, 10) > 1 && parseInt(sliderHddSsd.value, 10) > 1 && parseInt(sliderNvme.value, 10) > 1) {
+    result = 10;
+  }
+
+  usersResult.value = result;
+}
+
+//Функция ручного ввода количества пользователей
+
+function inputUsers() {
+
+  if (usersResult.value > 79) {
+    sliderRam.value = 256;
+    sliderCores.value = 64;
+    sliderHddSsd.value = 10240;
+    sliderNvme.value = 2048;
+  } else if (usersResult.value >= 60) {
+    sliderRam.value = 192;
+    sliderCores.value = 48;
+    sliderHddSsd.value = 7680;
+    sliderNvme.value = 1536;
+  } else if (usersResult.value >= 40) {
+    sliderRam.value = 128;
+    sliderCores.value = 33;
+    sliderHddSsd.value = 5120;
+    sliderNvme.value = 1024;
+  } else if (usersResult.value >= 20) {
+    sliderRam.value = 64;
+    sliderCores.value = 17;
+    sliderHddSsd.value = 2560;
+    sliderNvme.value = 512;
+  } else if (usersResult.value < 20) {
+    sliderRam.value = 32;
+    sliderCores.value = 8;
+    sliderHddSsd.value = 1280;
+    sliderNvme.value = 256;
+  }
+  //   sliderRam.value = 0;
+  //   sliderCores.value = 0;
+  //   sliderHddSsd.value = 0;
+  //   sliderNvme.value = 0;
+  // }
+}
+
 // Обработка событий для чекбоксов
 
 const checkBoxes = document.querySelectorAll('.calculate__checkmark');
@@ -45,26 +104,33 @@ checkBoxes.forEach(function () {
 
 //Функция для соединения значений слайдера, инпута и калькулятора
 
-function connectSlider(slider, result) {
+function connectValues(item, result) {
 
-  slider.oninput = () => {
-    result.value = slider.value;
+  item.oninput = () => {
+    result.value = item.value;
     calcPrice();
+    calcUsers();
   };
 
   result.oninput = () => {
-    slider.value = result.value;
+    item.value = result.value;
     calcPrice();
+    calcUsers();
   };
 
 };
 
 // Вызов функций
 
-connectSlider(sliderRam, ramResult);
-connectSlider(sliderCores, coresResult);
-connectSlider(sliderHddSsd, hddSsdResult);
-connectSlider(sliderNvme, nvmeResult);
+connectValues(sliderRam, ramResult);
+connectValues(sliderCores, coresResult);
+connectValues(sliderHddSsd, hddSsdResult);
+connectValues(sliderNvme, nvmeResult);
+
+usersResult.addEventListener('change', () => {
+  inputUsers();
+  calcPrice();
+})
 
 //Попап
 
@@ -87,6 +153,8 @@ allPopupButtons.forEach(function (item) {
 
 popupCloseBtn.addEventListener('click', () => closePopup());
 contactsForm.addEventListener('submit', () => closePopup());
+
+// Свайпер
 
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 1,
