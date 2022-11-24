@@ -80,17 +80,17 @@ function inputUsers() {
     sliderCores.value = 17;
     sliderHddSsd.value = 2560;
     sliderNvme.value = 512;
-  } else if (usersResult.value < 20) {
+  } else if ((usersResult.value < 20) && (usersResult.value != 0)) {
     sliderRam.value = 32;
     sliderCores.value = 8;
     sliderHddSsd.value = 1280;
     sliderNvme.value = 256;
+  } else {
+    sliderRam.value = 0;
+    sliderCores.value = 0;
+    sliderHddSsd.value = 0;
+    sliderNvme.value = 0;
   }
-  //   sliderRam.value = 0;
-  //   sliderCores.value = 0;
-  //   sliderHddSsd.value = 0;
-  //   sliderNvme.value = 0;
-  // }
 }
 
 // Обработка событий для чекбоксов
