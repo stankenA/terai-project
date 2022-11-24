@@ -7,8 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title lang="en">TERAI</title>
   <link rel="stylesheet" href="./vendor/normalize.css">
-  <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="./vendor/fonts/fonts.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./style.css">
 </head>
 
 <body class="page">
@@ -90,7 +91,7 @@
       <img src="./images/cloud.png" alt="Облако" class="features__cloud-1">
       <img src="./images/cloud.png" alt="Облако" class="features__cloud-2">
       <img src="./images/dots.svg" alt="Декоративные точки" class="features__dots">
-      <ul class="features__list">
+      <ul class="features__list features__list_mobile">
         <li class="features__list-item features__list-item_first">
           <img src="./images/features__icon_1.svg" alt="Иконка" class="features__list-item-icon">
           <span class="features__number">1</span>
@@ -98,28 +99,66 @@
               ВКЛЮЧЕНО”</span></p>
         </li>
         <li class="features__list-item features__list-item_second">
+          <img src="./images/features__icon_1.svg" alt="Иконка" class="features__list-item-icon">
           <span class="features__number">2</span>
           <p class="features__text"><span class="features__text-bold">экономия</span> на услугах системного
             администратора</p>
         </li>
         <li class="features__list-item features__list-item_third">
+          <img src="./images/features__icon_1.svg" alt="Иконка" class="features__list-item-icon">
           <span class="features__number">3</span>
           <p class="features__text"><span class="features__text-bold">отработанная схема подключения,</span> не
             нуждающаяся в постоянной поддержке и настройке</p>
         </li>
         <li class="features__list-item features__list-item_fourth">
+          <img src="./images/features__icon_1.svg" alt="Иконка" class="features__list-item-icon">
           <span class="features__number">4</span>
           <p class="features__text">наше оборудование позволяет одновременно работать до <span
               class="features__text-bold">100 человек</span></p>
         </li>
         <li class="features__list-item features__list-item_fifth">
+          <img src="./images/features__icon_1.svg" alt="Иконка" class="features__list-item-icon">
           <span class="features__number features__number_fifth">5</span>
           <p class="features__text">нашими услугами пользуются ведущие производственные и коммерческие предприятия
             страны</p>
         </li>
-        <span class="features__slide-btn features__slide-btn_prev"></span>
-        <span class="features__slide-btn features__slide-btn_next"></span>
       </ul>
+      <div class="swiper mySwiper">
+        <ul class="features__list swiper-wrapper">
+          <li class="features__list-item features__list-item_first swiper-slide">
+            <img src="./images/features__icon_1.svg" alt="Иконка" class="features__list-item-icon">
+            <span class="features__number">1</span>
+            <p class="features__text">Комплексное обслуживание по принципу<br><span class="features__text-bold">“ВСЕ
+                ВКЛЮЧЕНО”</span></p>
+          </li>
+          <li class="features__list-item features__list-item_second swiper-slide">
+            <img src="./images/features__icon_2.svg" alt="Иконка" class="features__list-item-icon">
+            <span class="features__number">2</span>
+            <p class="features__text"><span class="features__text-bold">экономия</span> на услугах системного
+              администратора</p>
+          </li>
+          <li class="features__list-item features__list-item_third swiper-slide">
+            <img src="./images/features__icon_3.svg" alt="Иконка" class="features__list-item-icon">
+            <span class="features__number">3</span>
+            <p class="features__text"><span class="features__text-bold">отработанная схема подключения,</span> не
+              нуждающаяся в постоянной поддержке и настройке</p>
+          </li>
+          <li class="features__list-item features__list-item_fourth swiper-slide">
+            <img src="./images/features__icon_4.svg" alt="Иконка" class="features__list-item-icon">
+            <span class="features__number">4</span>
+            <p class="features__text">наше оборудование позволяет одновременно работать до <span
+                class="features__text-bold">100 человек</span></p>
+          </li>
+          <li class="features__list-item features__list-item_fifth swiper-slide">
+            <img src="./images/features__icon_5.svg" alt="Иконка" class="features__list-item-icon">
+            <span class="features__number features__number_fifth">5</span>
+            <p class="features__text">нашими услугами пользуются ведущие производственные и коммерческие предприятия
+              страны</p>
+          </li>
+        </ul>
+      </div>
+      <span class="features__slide-btn features__slide-btn_prev swiper-button-prev"></span>
+      <span class="features__slide-btn features__slide-btn_next swiper-button-next"></span>
       <button type="button" class="features__button button button_popup button_dark">воспользоваться
         преимуществами</button>
     </section>
@@ -425,6 +464,7 @@
       <button type="button" class="popup__close-button" aria-label="Кнопка закрытия попапа"></button>
     </div>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
   <script src="./scripts/index.js"></script>
 </body>
 
