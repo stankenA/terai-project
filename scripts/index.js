@@ -130,6 +130,10 @@ connectValues(sliderNvme, nvmeResult);
 usersResult.addEventListener('change', () => {
   inputUsers();
   calcPrice();
+  ramResult.value = sliderRam.value;
+  coresResult.value = sliderCores.value;
+  hddSsdResult.value = sliderHddSsd.value;
+  nvmeResult.value = sliderNvme.value;
 })
 
 //Попап
