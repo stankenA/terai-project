@@ -1,0 +1,13 @@
+.offer__dots-2 {
+  position: absolute;
+  top: 99px;
+  left: -169px;
+  z-index: -2;
+}
+
+@media screen and (max-width: 767px) {
+
+  .offer__dots-2 {
+    display: none;
+  }
+}

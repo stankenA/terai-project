@@ -1,0 +1,20 @@
+.footer__container {
+  position: relative;
+  right: -162px;
+  max-width: 898px;
+  margin: 168px auto 0;
+}
+
+@media screen and (max-width: 1439px) {
+
+  .footer__container {
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .footer__container {
+    margin-top: 0;
+  }
+}

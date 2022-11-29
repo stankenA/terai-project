@@ -1,0 +1,15 @@
+.offer__text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+}
+
+@media screen and (max-width: 767px) {
+
+  .offer__text {
+    max-width: 190px;
+    font-size: 12px;
+    line-height: 132%;
+  }
+}

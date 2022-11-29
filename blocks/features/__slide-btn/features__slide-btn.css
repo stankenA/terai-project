@@ -1,0 +1,16 @@
+@media screen and (max-width: 767px) {
+
+  .features__slide-btn {
+    display: block;
+    position: absolute;
+    bottom: 219px;
+    left: 12px;
+    rotate: 45deg;
+    width: 18px;
+    height: 18px;
+    border-bottom: 3px solid #4D5164;
+    border-left: 3px solid #4D5164;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+}

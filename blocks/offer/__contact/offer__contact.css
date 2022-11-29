@@ -1,0 +1,26 @@
+.offer__contact {
+  margin-top: 37px;
+  width: 946px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1023px) {
+
+  .offer__contact {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .offer__contact {
+    margin-top: 21px;
+    position: relative;
+    max-width: 294px;
+  }
+}

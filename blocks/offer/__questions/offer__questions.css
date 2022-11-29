@@ -1,0 +1,35 @@
+.offer__questions {
+  margin: 0;
+  color: #4D5164;
+  width: 512px;
+  text-align: center;
+  background-color: #FFF;
+  padding: 29px 69px 29px 67px;
+  border-radius: 90px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 135.19%;
+  color: #000000;
+}
+
+@media screen and (max-width: 1023px) {
+
+  .offer__questions {
+    width: 46%;
+    padding: 18px 22px 18px 22px;
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .offer__questions {
+    width: 275px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+    line-height: 135.19%;
+    padding: 17px 0 17px 19px;
+    text-align: left;
+  }
+}

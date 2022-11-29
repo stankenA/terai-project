@@ -1,0 +1,24 @@
+.calculate__title {
+  margin: 0 0 37px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 135.19%;
+  text-align: center;
+}
+
+@media screen and (max-width: 1023px) {
+
+  .calculate__title {
+    font-size: 55px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .calculate__title {
+    font-size: 24px;
+    line-height: 135.19%;
+    max-width: 280px;
+    margin: 0 auto;
+  }
+}

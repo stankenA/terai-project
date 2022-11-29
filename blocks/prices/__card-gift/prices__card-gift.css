@@ -1,0 +1,17 @@
+.prices__card-gift {
+  margin: 0;
+  max-width: 97px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  color: #FF503E;
+}
+
+@media screen and (max-width: 767px) {
+
+  .prices__card-gift {
+    font-size: 14px;
+    line-height: 100%;
+    max-width: 82px;
+  }
+}

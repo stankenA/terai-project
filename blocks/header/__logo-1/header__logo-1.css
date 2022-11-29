@@ -1,0 +1,17 @@
+.header__logo-1 {
+  text-decoration: none;
+  font-family: 'Druk Wide';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #4D5164;
+}
+
+@media screen and (max-width: 767px) {
+
+  .header__logo-1 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}

@@ -1,0 +1,37 @@
+.offer__title {
+  background-color: #FFF;
+  border-radius: 90px;
+  padding: 46px 24px 37px 82px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 135.19%;
+  width: 982px;
+  text-align: start;
+  margin: 0;
+}
+
+@media screen and (max-width: 1439px) {
+
+  .offer__title {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  .offer__title {
+    padding: 46px 37px 37px 60px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .offer__title {
+    font-size: 16px;
+    line-height: 135.19%;
+    text-align: center;
+    padding: 30px 0;
+    border-radius: 0;
+    margin-bottom: 16px;
+  }
+}

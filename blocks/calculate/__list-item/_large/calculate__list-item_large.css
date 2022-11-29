@@ -1,0 +1,10 @@
+.calculate__list-item_large {
+  min-height: 300px;
+}
+
+@media screen and (max-width: 767px) {
+
+  .calculate__list-item_large {
+    min-height: unset;
+  }
+}

@@ -1,0 +1,16 @@
+.prices__card-txt {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  max-width: 205px;
+}
+
+@media screen and (max-width: 767px) {
+
+  .prices__card-txt {
+    margin-left: 13px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+}

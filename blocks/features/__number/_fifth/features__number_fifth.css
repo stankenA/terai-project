@@ -1,0 +1,17 @@
+.features__number_fifth {
+  right: 218px;
+}
+
+@media screen and (max-width: 1023px) {
+
+  .features__number_fifth {
+    right: 150px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .features__number_fifth {
+    right: 35px;
+  }
+}

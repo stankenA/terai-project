@@ -1,0 +1,23 @@
+.calculate__list-item-price {
+  margin: 0;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 117.5%;
+  color: #FF503E;
+}
+
+.calculate__list-item-price::after {
+  content: "руб";
+  font-size: 16px;
+  color: #FF503E;
+  line-height: 117.5%;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 767px) {
+
+  .calculate__list-item-price {
+    font-size: 48px;
+    line-height: 117.5%;
+  }
+}

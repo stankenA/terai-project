@@ -1,0 +1,30 @@
+.prices__card-old-price {
+  margin: 19px 0 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 135.19%;
+  text-align: center;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  margin-left: 9%;
+  position: relative;
+}
+
+.prices__card-old-price::before {
+  position: absolute;
+  bottom: 58%;
+  border-bottom: 2px solid #4D5164;
+  -webkit-transform: rotate(12deg);
+  -ms-transform: rotate(12deg);
+  transform: rotate(12deg);
+  content: "";
+  width: 100%;
+  height: 50%;
+}
+
+@media screen and (max-width: 767px) {
+
+  .prices__card-old-price {
+    margin-top: -1px;
+  }
+}

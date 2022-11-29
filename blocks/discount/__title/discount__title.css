@@ -1,0 +1,24 @@
+.discount__title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 135.19%;
+  text-align: center;
+  margin: 0 0 55px;
+}
+
+@media screen and (max-width: 1439px) {
+
+  .discount__title {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .discount__title {
+    margin: 42px auto 23px;
+    max-width: 310px;
+    font-size: 24px;
+    line-height: 135.19%;
+  }
+}

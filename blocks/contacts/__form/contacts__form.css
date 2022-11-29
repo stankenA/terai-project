@@ -1,0 +1,11 @@
+.contacts__form {
+  width: 434px;
+}
+
+@media screen and (max-width: 767px) {
+
+  .contacts__form {
+    width: 294px;
+    margin-bottom: 39px;
+  }
+}

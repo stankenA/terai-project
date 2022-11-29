@@ -1,0 +1,23 @@
+.offer__list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 51px;
+  margin-bottom: 17px;
+}
+
+@media screen and (max-width: 767px) {
+
+  .offer__list {
+    padding: 0;
+    width: 294px;
+    border-radius: 45px;
+  }
+
+  .offer__list-item:first-child {
+    padding-top: 24px;
+  }
+}

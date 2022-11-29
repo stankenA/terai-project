@@ -1,0 +1,127 @@
+.calculate__slider {
+  margin-top: 59px;
+}
+
+/* Applying base styles */
+
+.calculate__slider[type="range"] {
+  -webkit-appearance: none;
+  width: 100%;
+  background: transparent;
+}
+
+input[type=range]::-ms-track {
+  width: 100%;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+
+.calculate__slider[type="range"]:focus {
+  outline: none;
+}
+
+/* Styling the Thumb */
+
+.calculate__slider[type="range"]::-webkit-slider-thumb {
+  margin-top: -6px;
+  -webkit-appearance: none;
+  width: 30px;
+  height: 30px;
+  background: #4D5164;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.calculate__slider[type="range"]::-moz-range-thumb {
+  margin-top: -6px;
+  -webkit-appearance: none;
+  width: 30px;
+  height: 30px;
+  background: #4D5164;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.calculate__slider[type="range"]::-ms-thumb {
+  margin-top: -6px;
+  -webkit-appearance: none;
+  width: 30px;
+  height: 30px;
+  background: #4D5164;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/*Styling the Track */
+
+.calculate__slider[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 18px;
+  background: #FFF;
+  border-radius: 9px;
+}
+
+.calculate__slider[type="range"]::-moz-range-track {
+  width: 100%;
+  height: 18px;
+  background: #FFF;
+  border-radius: 9px;
+}
+
+.calculate__slider[type="range"]::-ms-track {
+  width: 100%;
+  height: 18px;
+  background: #FFF;
+  border-radius: 9px;
+}
+
+.calculate__slider[type="range"]::-ms-fill-lower {
+  width: 100%;
+  height: 18px;
+  background: #FFF;
+  border-radius: 9px;
+}
+
+@media screen and (max-width: 767px) {
+
+  /* Styling the Thumb */
+
+  .calculate__slider[type="range"]::-webkit-slider-thumb {
+    width: 20px;
+    height: 20px;
+  }
+
+  .calculate__slider[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+  }
+
+  .calculate__slider[type="range"]::-ms-thumb {
+    width: 20px;
+    height: 20px;
+  }
+
+  /*Styling the Track */
+
+  .calculate__slider[type="range"] {
+    width: 196px;
+  }
+
+  .calculate__slider[type="range"]::-webkit-slider-runnable-track {
+    height: 10px;
+  }
+
+  .calculate__slider[type="range"]::-moz-range-track {
+    height: 10px;
+  }
+
+  .calculate__slider[type="range"]::-ms-track {
+    height: 10px;
+  }
+
+  .calculate__slider[type="range"]::-ms-fill-lower {
+    height: 10px;
+  }
+}

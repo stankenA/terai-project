@@ -1,0 +1,24 @@
+.page {
+  font-family: Actay, Arial, sans-serif;
+  background: -webkit-gradient(linear, left top, right top, from(#CBFFF6), color-stop(98.44%, #81DECD));
+  background: -o-linear-gradient(left, #CBFFF6 0%, #81DECD 98.44%);
+  background: linear-gradient(90deg, #CBFFF6 0%, #81DECD 98.44%);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #4D5164;
+  --content-width: 1440px;
+}
+
+@media screen and (max-width: 1439px) {
+
+  .page {
+    --content-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .page {
+    --content-width: 768px;
+  }
+}

@@ -1,0 +1,33 @@
+.about__comp-pic {
+  position: absolute;
+  bottom: -110px;
+  right: -84px;
+}
+
+@media screen and (max-width: 1439px) {
+
+  .about__comp-pic {
+    bottom: -160px;
+    right: -5%;
+    width: 34%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  .about__comp-pic {
+    position: absolute;
+    top: 348px;
+    right: 158px;
+    width: 272px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .about__comp-pic {
+    width: 147px;
+    top: 92px;
+    right: 21px;
+  }
+}

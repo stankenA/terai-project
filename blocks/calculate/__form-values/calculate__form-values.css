@@ -1,0 +1,20 @@
+.calculate__form-values {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+  bottom: 35px;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+
+  .calculate__form-values {
+    width: 206px;
+    margin-left: -11px;
+  }
+}

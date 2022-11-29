@@ -1,0 +1,20 @@
+.calculate__form-label {
+  margin-left: 20px;
+  max-width: 330px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 117.5%;
+  color: #637883;
+  margin-bottom: 59px;
+}
+
+@media screen and (max-width: 767px) {
+
+  .calculate__form-label {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 117.5%;
+  }
+}

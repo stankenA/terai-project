@@ -1,0 +1,28 @@
+.features__picture {
+  position: absolute;
+  top: 0;
+  left: 237px;
+}
+
+@media screen and (max-width: 1439px) {
+
+  .features__picture {
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  .features__picture {
+    width: 55%;
+    left: -38px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .features__picture {
+    width: 52%;
+    left: 8px;
+  }
+}

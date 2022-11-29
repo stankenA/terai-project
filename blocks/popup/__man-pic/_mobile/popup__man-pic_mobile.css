@@ -1,0 +1,19 @@
+.popup__man-pic_mobile {
+  display: none;
+}
+
+@media screen and (max-width: 1023px) {
+
+  .popup__man-pic_mobile {
+    display: block;
+    left: 25%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .popup__man-pic_mobile {
+    width: 152px;
+    left: 21%;
+  }
+}

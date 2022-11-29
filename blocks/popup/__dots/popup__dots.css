@@ -1,0 +1,40 @@
+.popup__dots {
+  position: absolute;
+  width: 270px;
+  left: 203px;
+  top: 115px;
+}
+
+@media screen and (max-width: 1439px) {
+
+  .popup__dots {
+    width: 200px;
+    left: 8%;
+    top: 18%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  .popup__dots {
+    left: 36%;
+    top: unset;
+    bottom: 6%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .popup__dots {
+    width: 135px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .popup__dots {
+    width: 135px;
+    left: 32%;
+    bottom: 10%;
+  }
+}

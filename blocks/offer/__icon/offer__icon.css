@@ -1,0 +1,12 @@
+.offer__icon {
+  margin-right: 55px;
+}
+
+@media screen and (max-width: 767px) {
+
+  .offer__icon {
+    max-width: 37px;
+    margin-right: 25px;
+    margin-left: 29px;
+  }
+}

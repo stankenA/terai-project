@@ -1,0 +1,14 @@
+.calculate__checkbox {
+  position: relative;
+  width: 91px;
+  height: 87px;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 767px) {
+
+  .calculate__checkbox {
+    width: 54px;
+    height: 54px;
+  }
+}

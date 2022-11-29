@@ -1,0 +1,32 @@
+.prices__card-list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 31px;
+  position: relative;
+}
+
+.prices__card-list-item::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 200px;
+  margin: 0 auto 15px;
+  border-bottom: .5px solid rgba(77, 81, 100, 0.18);
+  bottom: -28px;
+  left: 44px;
+}
+
+@media screen and (max-width: 767px) {
+
+  .prices__card-list-item {
+    margin-bottom: 34px;
+  }
+
+  .prices__card-list-item::after {
+    width: 153px;
+  }
+}

@@ -1,0 +1,10 @@
+.prices__card-new-price-rub {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 767px) {
+
+  .prices__card-new-price-rub {
+    font-size: 14px;
+  }
+}

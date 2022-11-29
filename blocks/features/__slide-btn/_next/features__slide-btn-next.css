@@ -1,0 +1,8 @@
+@media screen and (max-width: 767px) {
+
+  .features__slide-btn_next {
+    left: unset;
+    right: 12px;
+    rotate: 225deg;
+  }
+}

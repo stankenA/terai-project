@@ -1,0 +1,22 @@
+.features__cloud-1 {
+  position: absolute;
+  top: -31%;
+  left: -56%;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1023px) {
+
+  .features__cloud-1 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .features__cloud-1 {
+    width: 483px;
+    top: -122px;
+    left: -287px;
+  }
+}

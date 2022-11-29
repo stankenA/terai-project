@@ -1,0 +1,19 @@
+.prices__card-new-price-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 83%;
+}
+
+@media screen and (max-width: 767px) {
+
+  .prices__card-new-price-container {
+    width: 85%;
+  }
+}

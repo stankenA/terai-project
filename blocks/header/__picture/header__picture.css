@@ -1,0 +1,20 @@
+.header__picture {
+  position: absolute;
+  top: 61px;
+  right: 17px;
+  z-index: 0;
+}
+
+@media screen and (max-width: 1023px) {
+
+  .header__picture {
+    right: 35%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .header__picture {
+    display: none;
+  }
+}

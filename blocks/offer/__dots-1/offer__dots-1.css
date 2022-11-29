@@ -1,0 +1,21 @@
+.offer__dots-1 {
+  position: absolute;
+  right: -105px;
+  bottom: 235px;
+  z-index: -2;
+}
+
+@media screen and (max-width: 1439px) {
+
+  .offer__dots-1 {
+    right: -5%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .offer__dots-1 {
+    right: 0;
+    width: 135px;
+  }
+}

@@ -1,0 +1,28 @@
+.features__list-item_fourth {
+  top: 736px;
+  left: 118px;
+}
+
+@media screen and (max-width: 1439px) {
+
+  .features__list-item_fourth {
+    top: 736px;
+    left: 22px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  .features__list-item_fourth {
+    top: 852px;
+    left: 7px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .features__list-item_fourth {
+    top: unset;
+    left: unset;
+  }
+}

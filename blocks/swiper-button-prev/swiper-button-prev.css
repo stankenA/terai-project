@@ -1,0 +1,7 @@
+.swiper-button-prev {
+  top: unset;
+}
+
+.swiper-button-prev::after {
+  display: none;
+}

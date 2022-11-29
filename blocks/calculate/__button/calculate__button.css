@@ -1,0 +1,37 @@
+.calculate__button {
+  margin: 63px 0 0;
+  width: 552px;
+  height: 86px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 135.19%;
+  text-align: center;
+  -ms-flex-item-align: end;
+  -ms-grid-row-align: end;
+  align-self: end;
+}
+
+@media screen and (max-width:1196px) {
+
+  .calculate__button {
+    margin: 63px auto 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .calculate__button {
+    width: 294px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .calculate__button {
+    margin-top: 27px;
+    width: 294px;
+    height: 42px;
+    font-size: 16px;
+    line-height: 135.19%;
+  }
+}

@@ -1,0 +1,32 @@
+.about__server-pic {
+  position: absolute;
+  top: -79px;
+  right: -147px;
+}
+
+@media screen and (max-width: 1439px) {
+
+  .about__server-pic {
+    width: 50%;
+    top: -96px;
+    right: -4%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  .about__server-pic {
+    position: static;
+    width: 535px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .about__server-pic {
+    width: 217px;
+    position: relative;
+    left: -29px;
+    top: unset;
+  }
+}

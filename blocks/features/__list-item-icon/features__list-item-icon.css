@@ -1,0 +1,10 @@
+.features__list-item-icon {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+
+  .features__list-item-icon {
+    display: block;
+  }
+}

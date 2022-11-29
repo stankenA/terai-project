@@ -1,0 +1,17 @@
+.calculate__list-item-title {
+  margin: 0;
+  max-width: 330px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 117.5%;
+  color: #637883;
+}
+
+@media screen and (max-width: 767px) {
+
+  .calculate__list-item-title {
+    max-width: 181px;
+    font-size: 16px;
+    line-height: 117.5%;
+  }
+}

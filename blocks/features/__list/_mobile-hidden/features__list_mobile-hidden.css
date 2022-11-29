@@ -1,0 +1,6 @@
+@media screen and (max-width: 767px) {
+
+  .features__list_mobile-hidden {
+    display: none;
+  }
+}

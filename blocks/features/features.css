@@ -1,0 +1,56 @@
+.features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  min-height: 1501px;
+  background: url(../../images/feature__background.svg) no-repeat top 57% right 50%,
+    url(../../images/dots.svg) no-repeat top 117px left 59px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  max-width: var(--content-width);
+  margin: 0 auto 108px;
+}
+
+@media screen and (max-width: 1439px) {
+
+  .features {
+    min-height: 1400px;
+    margin-bottom: 56px;
+    background: url(../../images/feature__background_extended.svg) no-repeat top 51% right 15%,
+      url(../../images/dots.svg) no-repeat top 117px left 59px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  .features {
+    background: url(../../images/feature__background_extended_2.svg) no-repeat top 51% right 15%,
+      url(../../images/dots.svg) no-repeat top 117px left 150px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .features {
+    min-height: 0;
+    background: url(../../images/dots.svg) no-repeat top 103px right -40px / 135px;
+    margin-bottom: 31px;
+  }
+
+  .features::after {
+    margin-top: 33px;
+    content: '';
+    width: 186px;
+    height: 1px;
+    border-bottom: 1px solid #4D5164;
+  }
+}

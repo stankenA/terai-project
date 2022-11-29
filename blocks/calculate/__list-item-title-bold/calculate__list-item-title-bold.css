@@ -1,0 +1,16 @@
+.calculate__list-item-title-bold {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 117.5%;
+  color: #4D5164;
+  margin: 30px 0 0;
+}
+
+@media screen and (max-width: 767px) {
+
+  .calculate__list-item-title-bold {
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 117.5%;
+  }
+}

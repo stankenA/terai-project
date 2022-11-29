@@ -1,0 +1,14 @@
+.swiper {
+  display: none;
+  width: 253px;
+}
+
+@media screen and (max-width: 767px) {
+
+  .swiper {
+    display: block;
+    width: 253px;
+    padding-left: calc((100vw - 254px) / 2);
+    padding-right: calc((100vw - 254px) / 2);
+  }
+}

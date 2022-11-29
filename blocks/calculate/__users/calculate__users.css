@@ -1,0 +1,18 @@
+.calculate__users {
+  display: block;
+  margin: 6px auto 0;
+  text-align: center;
+  max-width: 86%;
+  font-size: 23px;
+  line-height: 117.5%;
+}
+
+@media screen and (max-width: 767px) {
+
+  .calculate__users {
+    margin-top: 0;
+    font-size: 15px;
+    line-height: 113.5%;
+    max-width: 92%;
+  }
+}

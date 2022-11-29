@@ -1,0 +1,15 @@
+.prices__card-new-price {
+  margin: 0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 85.19%;
+  color: #FF503E;
+}
+
+@media screen and (max-width: 767px) {
+
+  .prices__card-new-price {
+    font-size: 36px;
+    line-height: 135.19%;
+  }
+}

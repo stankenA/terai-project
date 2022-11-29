@@ -1,0 +1,21 @@
+.footer {
+  max-width: var(--content-width);
+  margin: 0 auto;
+  min-height: 635px;
+  position: relative;
+  background: url(../../images/cloud.png) no-repeat top -23% right 0;
+}
+
+@media screen and (max-width: 1023px) {
+
+  .footer {
+    background: url(../../images/cloud.png) no-repeat bottom -301px left -114px / 97%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .footer {
+    background: url(../../images/cloud.png) no-repeat bottom -347px right -91px/ 775px;
+  }
+}

@@ -1,0 +1,20 @@
+.prices__button {
+  margin-top: 15px;
+  width: 299px;
+  height: 59px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 135.19%;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+
+  .prices__button {
+    margin-top: 7px;
+    width: 229px;
+    height: 42px;
+    font-size: 16px;
+    line-height: 135.19%;
+  }
+}

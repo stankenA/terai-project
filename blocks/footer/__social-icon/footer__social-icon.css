@@ -1,0 +1,11 @@
+.footer__social-icon {
+  width: 32px;
+  height: 32px;
+  -webkit-transition: opacity .4s ease;
+  -o-transition: opacity .4s ease;
+  transition: opacity .4s ease;
+}
+
+.footer__social-icon:hover {
+  opacity: .6;
+}

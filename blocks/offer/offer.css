@@ -1,0 +1,38 @@
+.offer {
+  max-width: 1200px;
+  margin: 0 auto 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+}
+
+@media screen and (max-width: 1439px) {
+
+  .offer {
+    max-width: 82%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .offer {
+    max-width: 100%;
+    margin-bottom: 64px;
+  }
+
+  .offer::after {
+    margin-top: 27px;
+    content: '';
+    width: 186px;
+    height: 1px;
+    border-bottom: 1px solid #4D5164;
+  }
+}

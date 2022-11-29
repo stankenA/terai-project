@@ -1,0 +1,33 @@
+.features__number {
+  position: absolute;
+  font-weight: 700;
+  font-size: 101px;
+  line-height: 135.19%;
+  top: -56px;
+  right: 55px;
+}
+
+@media screen and (max-width: 1439px) {
+
+  .features__number {
+    font-size: 85px;
+    top: -47px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  .features__number {
+    font-size: 68px;
+    top: -37px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .features__number {
+    font-size: 62px;
+    top: -37px;
+    right: 35px;
+  }
+}

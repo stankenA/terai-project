@@ -1,0 +1,32 @@
+.about__description {
+  margin: 0;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 117.5%;
+  max-width: 592px;
+}
+
+@media screen and (max-width: 1439px) {
+
+  .about__description {
+    font-size: 20px;
+    max-width: 60%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  .about__description {
+    max-width: 74%;
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .about__description {
+    max-width: 293px;
+    font-size: 14px;
+    line-height: 117.5%;
+  }
+}

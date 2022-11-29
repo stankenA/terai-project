@@ -1,0 +1,22 @@
+.header__dots {
+  position: absolute;
+  bottom: -75px;
+  left: -32px;
+}
+
+@media screen and (max-width: 1439px) {
+
+  .header__dots {
+    bottom: 68px;
+    z-index: -1;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .header__dots {
+    width: 135px;
+    bottom: -76px;
+    left: -17px;
+  }
+}

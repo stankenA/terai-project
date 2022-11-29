@@ -1,0 +1,7 @@
+.button_dark {
+  background-color: #4D5164;
+}
+
+.button_dark:hover {
+  background-color: #303964;
+}

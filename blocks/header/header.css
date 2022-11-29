@@ -1,0 +1,24 @@
+.header {
+  position: relative;
+  min-height: 904px;
+  background: url(../../images/cloud_top.png) no-repeat,
+    url(../../images/dots.svg) no-repeat top 131px left 504px;
+  max-width: var(--content-width);
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1023px) {
+
+  .header {
+    background: url(../../images/dots.svg) no-repeat top 131px right 6%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .header {
+    background: url(../../images/dots.svg) no-repeat top 263px right -100px / 135px,
+      url(../../images/cloud__header_mobile.png) no-repeat top 66px left 0;
+    min-height: unset;
+  }
+}

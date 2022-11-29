@@ -1,0 +1,30 @@
+.calculate__users-result {
+  border: none;
+  padding: 0;
+  text-align: center;
+  background: transparent;
+  width: 40px;
+  height: 40px;
+  background-color: #FFF;
+  border-radius: 15px;
+  color: #FF503E;
+}
+
+.calculate__users-result:focus {
+  outline: none;
+}
+
+.calculate__users-result[type="number"]::-webkit-outer-spin-button,
+.calculate__users-result[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+
+  .calculate__users-result {
+    width: 30px;
+    height: 30px;
+    border-radius: 12px;
+  }
+}

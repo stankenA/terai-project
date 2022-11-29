@@ -1,0 +1,21 @@
+.footer__info {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 135.19%;
+  color: #000000;
+}
+
+@media screen and (max-width: 767px) {
+
+  .footer__info {
+    font-size: 14px;
+    line-height: 135.19%;
+  }
+
+  .footer__info:not(:first-child) {
+    font-size: 18px;
+    line-height: 135.19%;
+    margin-top: 6px;
+  }
+}

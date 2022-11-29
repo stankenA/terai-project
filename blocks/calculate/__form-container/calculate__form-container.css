@@ -1,0 +1,27 @@
+.calculate__form-container {
+  position: relative;
+  width: 362px;
+}
+
+@media screen and (max-width:1196px) {
+
+  .calculate__form-container {
+    position: relative;
+    width: 53%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  .calculate__form-container {
+    width: 62%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .calculate__form-container {
+    width: 100%;
+    margin: 0 30px 0 17px;
+  }
+}
